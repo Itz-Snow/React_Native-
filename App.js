@@ -5,6 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 //import custom component here
 import LittleLemonHeader from './components/LittleLemonHeader';
 import LittleLemonFooter from './components/LittleLemonFooter';
+import WelcomeScreen from './source/WelcomeScreen';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       </View>
 
         <StatusBar style="auto" />
+        <WelcomeScreen/>
 
         <View styles={styles.footerContainer}>
           <LittleLemonFooter/>
